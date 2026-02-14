@@ -16,7 +16,7 @@ export default function TermsPage() {
     const Mdx = page.data.body;
 
     return (
-        <div className='max-w-4xl mx-auto px-4 py-12'>
+        <div className="max-w-4xl mx-auto px-4 py-12">
             {/* 页面标题 */}
             <div className="mb-12">
                 <h1 className="text-4xl font-bold mb-4">{page.data.title}</h1>
